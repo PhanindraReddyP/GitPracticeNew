@@ -1,0 +1,3 @@
+In UBUNTU to install GIT, We use
+
+   YUM install git
