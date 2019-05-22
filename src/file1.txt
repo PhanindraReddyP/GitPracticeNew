@@ -1,0 +1,1 @@
+This is the file created using GIT BASH but added content to this file directly in GIT repository.
