@@ -3,20 +3,20 @@
 git clone repository_url --> to get the code from the (github)remote repo to local
 git add . --> adding folders and files to repository(staging area)
 git status --> to check the git repository status
-git command -m "message" --> to commit the changes
+git commit -m "message" --> to commit the changes
 git push origin master --> to push the code from local to remote repository
 
-git git rm -r * --> to remove everything from the local
+git rm -r * --> to remove everything from the local
 
 **********Branching Strategy****************
 can you please explain your dev architecture ?
 
 
 
-standard branch(Dev branch)            Release branch            BugFix branch            Future branch
+standard branch(Dev branch)            Release branch            BugFix branch            Feature branch
 
-ex: dev1.0                             release_dev1.0            bugfix_dev1.0#1          future_dev1.0 
-    dev1.1                             release_dev1.1            bugfix_dev1.1#2          future_dev1.1
+ex: dev1.0                             release_dev1.0            bugfix_dev1.0#1          feature_dev1.0 
+    dev1.1                             release_dev1.1            bugfix_dev1.1#2          feature_dev1.1
 
 
 ******************Web Hooks**************
