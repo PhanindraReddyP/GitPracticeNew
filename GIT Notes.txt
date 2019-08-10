@@ -1,0 +1,30 @@
+*****************GIT Commands*****************
+
+git clone repository_url --> to get the code from the (github)remote repo to local
+git add . --> adding folders and files to repository(staging area)
+git status --> to check the git repository status
+git command -m "message" --> to commit the changes
+git push origin master --> to push the code from local to remote repository
+
+git git rm -r * --> to remove everything from the local
+
+**********Branching Strategy****************
+can you please explain your dev architecture ?
+
+
+
+standard branch(Dev branch)            Release branch            BugFix branch            Future branch
+
+ex: dev1.0                             release_dev1.0            bugfix_dev1.0#1          future_dev1.0 
+    dev1.1                             release_dev1.1            bugfix_dev1.1#2          future_dev1.1
+
+
+******************Web Hooks**************
+
+what are the ways we have to automate the Jenkins job? --> 3 different ways we have to automate the build process
+1.Using the GIT Web Hooks
+2.PollSCM in Jenkins
+3.Build periodically in Jenkins
+Purpose of Web Hooks is to automate the Jenkins jobs
+Basically developers will write web hooks for each change and build to be run and 
+according to the web hook rule when developer push the code to the repo then automatically Jenkins will run the job
